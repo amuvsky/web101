@@ -15,26 +15,22 @@ body {
   background-position: center; 
 }      
   
-
-
   
 div.cbox{
   padding: 20px;
   background-color: rgba(255,68,170,0.3);
   width: 450px;
   height: 450px;  
+  margin: 20px;
 }
   
-  
-div.padding{
-  padding: 20px;
-}
 
 div.comment{
   padding: 20px;
   background-color: rgba(0,147,147,0.3);
   width: 450px;
   height: 300px; 
+  margin: 20px;
 }
 
 .userimg{
