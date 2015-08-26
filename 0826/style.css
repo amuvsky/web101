@@ -34,26 +34,28 @@ div.comment{
   padding: 20px;
   background-color: rgba(0,147,147,0.3);
   width: 450px;
-  height: 500px; 
+  height: 300px; 
 }
 
-#userimg{
+.userimg{
   float: right;
   background-color: rgba(255,255,255,0.5);
   padding: 8px;
   width: 25%;
 }
 
-#userinfo { 
+.userinfo { 
   float:left; 
   background-color: rgba(255,255,255,0.5);
+  padding: 5px;
+  color :#009393;
+  clear: right;
   
 } 
   
-
-div.info {
- position: relative;
- top:0;
- right:0;
- width:200px;
+.usercomment{
+  background-color: rgba(255,255,255,0.5);
+  padding: 5px;
+  color :#009393;
 }
+
