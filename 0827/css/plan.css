@@ -1,14 +1,50 @@
 
-table.planbox{
-  border-width: 5px;
-  border-color: ;
-  border-style: solid;
-  background: blue;
+h3{
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px;
 }
 
-table, tr, td {
-    border: 1px solid black;
-    ;
-    padding: 5px;
+
+body{
+  background: #FFDDAA;
+}
+
+div.planbox{ 
+  padding: 10px;
+
+
+  }
+
+table, tr, td  {
+    border: 1px solid white;
+    border-collapse: ;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+th{
+    border: 1px solid white;
+    border-collapse: ;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+#good{
+  font-size: 100%;
+}
+
+#bad{
+  font-size: 50%;
+}
+
+img.catimg{
+  border-radius: 50%;
+  border: 5px dashed #FFFFFF;
+  width: 200px;
 
 }

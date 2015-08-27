@@ -1,4 +1,14 @@
 
+
+
+h3{
+  text-align: left;
+  color: #FF3333;
+  padding: 10px;
+}
+
+
+
 table.planbox{
   border-width: 3px;
   border-color: ;
@@ -11,7 +21,7 @@ table, tr, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
-
+    text-align: center;
 }
 
 th {
@@ -19,8 +29,9 @@ th {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 10px;
-  
 }
+
+
 
 #noon{
   color: #FF7744;
