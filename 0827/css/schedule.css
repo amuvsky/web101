@@ -1,18 +1,27 @@
 
 table.planbox{
-  border-width: 5px;
+  border-width: 3px;
   border-color: ;
   border-style: solid;
   background: ;
+  padding: 10px;
 }
 
 table, tr, td {
     border: 1px solid black;
     border-collapse: collapse;
-    padding: 5px;
+    padding: 10px;
 
 }
 
 th {
   text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  
+}
+
+#noon{
+  color: #FF7744;
 }
