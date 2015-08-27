@@ -10,7 +10,7 @@ body{
   background: #FFDDAA;
 }
 
-.planbox{ 
+table.planbox{ 
   padding: 10px;
   margin-left:auto; 
   margin-right:auto; 
