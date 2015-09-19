@@ -3,14 +3,7 @@
     <title>嗨</title>
     
 <style>	
-
-  h1{
-    color: #EEEEEE;
-	padding-left: 190px;
-    padding-top: 565px;
-	}
-	
-  div.para{
+	div.para{
     padding: 50px;
 	color: #FFFFFF
   }
@@ -18,33 +11,65 @@
   body{
     margin: 0px;
   }
-  div.photo{
-    background-image: url('images/F.jpg');
-    background-color: #CCCCCC; 
-	height: 100%;
-	width: 100%;
-	margin: 0px;
-	margin-top: 0px; 
-	margin-right: 0px; 
-	margin-bottom: 0px; 
-	margin-left: 0px
-	background-repeat: no-repeat;
+
+
+  div.photo1{
+	  width: 100%;
+	  position: relative;
   }
-  
-  div.block1{
-  background-color: #272727; 
-  width: 1920px;
-  height: 894px;
-}
+ 
+  .fengziheader{
+    width: 100%;
+	  position: relative;
+  }
+  .title{
+    color: #CCCCCC;
+	  position: absolute;
+    top: 58.5%;
+    left: 9%;
+	}
+	
+    
+  div.gray{
+		background-color: #272727; 
+		background-size: 100%;	
+		width: 100%;
+		height: 100%;
+		margin-bottom: 0px;
+	}
 
-  div.block2{
-  background-color: #EEC666; 
-  width: 1920px;
-  height: 894px;
-}
+  div.orange{
+    background-color: #EEC666; 
+    background-size: 100%;	
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+    position: relative;
+  }
 
+  .line{
+    width: 40%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 10px solid #EEEEEE;
 
+  }
 
+  div.photo2{
+	  width: 100%;
+	  margin: 0px;
+    position: relative;
+	  
+  }
+
+  .sunset{
+    width: 100%;
+    position: relative;
+  }
   
   
 </style>
@@ -53,21 +78,26 @@
   
   <body>
   
-    <div class="photo">
-	 <h1>LAYOUT TEST</h1>
+    <div class="photo1">
+	  <img class="fengziheader" src="images/F.JPG" alt="fengzi">
+	  <span class="title">LAYOUT TEST</span>
 	</div>
 	
-	<div class="block1">
-	  <div class="para">安安安安安安安安安安安
-	  </div>
-	</div>
-    
-	<div class="block2">
-	  <div class="para">安安安安安安安安安安安
+	<div class="gray">
+	  <div class="para">
+	    冬天的高雄很開心
 	  </div>
 	</div>
     
 
+	
+	<div class="orange">
+    <img class="line" src="images/line.JPG">
+	</div>
+    
+  <div class="photo2">
+	  <img class="sunset" src="images/sunset.JPG" alt="sunset">
+	</div>
 
 
     	
