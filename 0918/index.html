@@ -3,6 +3,7 @@
     <title>Little travel</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="css/slideme.css" rel="stylesheet">
   </head> 
 
   <body>
@@ -16,13 +17,35 @@
     </div>
 
     <div class="orange-block">
-        <img class="ksphotos" src="images/1.jpg"Image #1>   
-     </div>
+      <div id="ksphotos">
+        <ul class="slideme">
+          <li><img src="images/1.jpg"></li>
+          <li><img src="images/2.jpg"></li>
+          <li><img src="images/3.jpg"></li>
+          <li><img src="images/4.jpg"></li>
+          <li><img src="images/5.jpg"></li>
+          <li><img src="images/6.jpg"></li>
+        </ul> 
+      </div>  
 
     <div class="sunset-container">
       <img class="sunset" src="images/sunset.jpg" alt="sunset">
     </div>
-    <script src="js/lightbox.js"></script>   	
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.slideme2.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('#ksphotos').slideme({
+        arrows: true,
+        pagination: "numbers",
+        resizable: {
+          width: 500,
+          height: 400
+        }
+      })
+    });
+
+    </script>  
   </body> 
 </html>
 
