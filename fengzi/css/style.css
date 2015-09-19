@@ -1,19 +1,15 @@
-div.para{
-  padding: 50px;
-  color: #FFFFFF
-}
 
 body{
   margin: 0px;
 }
 
 
-div.photo1{
+div.fengzi-header-container{
   width: 100%;
   position: relative;
 }
 
-img.fengziheader{
+img.fengzi-header{
   width: 100%;
   position: relative;
 }
@@ -27,7 +23,7 @@ img.fengziheader{
 
 
 
-div.gray{
+div.gray-block{
   background-color: #272727; 
   background-size: 100%;  
   width: 100%;
@@ -43,7 +39,7 @@ div.gray{
   top: 30%;
 
 }
-div.orange{
+div.orange-block{
   background-color: #EEC666; 
   background-size: 100%;  
   width: 100%;
@@ -64,7 +60,7 @@ div.orange{
 
 }
 
-div.photo2{
+div.sunset-container{
   width: 100%;
   margin: 0px;
   position: relative;
